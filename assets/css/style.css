@@ -1,3 +1,4 @@
+/* /* Standard definition */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -27,6 +28,7 @@ main {
 
 }
 
+/* Page name and user menu */
 .top {
     display: flex;
     padding: 1vh 12vw;
@@ -76,7 +78,7 @@ main {
     border: 1px solid var(--strokeColor);
 }
 
-/* Dropdown menu */
+/* Dropdown user menu */
 .userMenu i {
     position: relative;
     display: inline-block;
@@ -130,19 +132,22 @@ header {
     color: var(--SelectedColor);
 }
 
-/* Menu responsivo */
+/* responsive menu */
 @media (max-width: 1400px) {
     header {
-    width: 8vw;
+        width: 8vw;
     }
+
     .menu i {
         padding: 30px;
         font-size: 40px;
     }
+
     .logoPanel>img {
         width: vw;
     }
 }
+
 @media (max-width: 1000px) {
     header {
         position: fixed;
@@ -157,13 +162,14 @@ header {
         flex-direction: row;
         padding: 50vw 0;
     }
+
     .menu i {
         padding: 50px;
         font-size: 35px;
     }
 
     .logoPanel>img {
-     display: none;
+        display: none;
     }
 
     .notification {
@@ -175,4 +181,102 @@ header {
 @media (max-width: 600px) {
     .user>.username {
         display: none;
-    }}
+    }
+}
+
+/* Cards */
+.cardHeader {
+    display: flex;
+    padding: 1vh 12vw;
+    justify-content: space-between;
+}
+
+.card {
+    background: var(--BoxBgColor);
+    border-radius: 13px;
+    height: 180px;
+    width: 415px;
+
+}
+
+.cardContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfo h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.cardInfo p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    padding: 1vh 12vw;
+    justify-content: space-between;
+}
+
+.boxCard {
+    background-color: var(--BoxBgColor);
+    border-radius: 13px;
+    padding: 5vh 0vw 2vh ;
+    padding-left: 30px;
+    width: 100vw;
+}
+
+.boxInfo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    padding-top: 1vh;
+}
+
+table { 
+    width: 70vw; 
+  }
+
+  th { 
+    color: var(--WhiteColor); 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  td, th { 
+    padding: 1vh 2vw 1vh 0vw ; 
+    text-align: left; 
+    border-bottom: 1px solid var(--strokeColor);
+
+  }
