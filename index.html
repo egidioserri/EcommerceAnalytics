@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page Style -->
+    <!-- Page Style && Font Awesome-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <!-- Page Favicon -->
     <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
@@ -17,27 +18,29 @@
 
 <body>
     <header>
-        <div class="top">
-            <div class="title">Analitycs</div>
-            <div class="notification"></div>
-            <div class="user">
-                <div class="username">Egidio</div>
-                <div class="userImage"><img src="user.png" alt="Usuário"></div>
-                <div class="userMenu">
-                    <li>Sair</li>
-                </div>
-            </div>
-        </div>
-    <div class="menu">
         <div class="logoPanel"><img src="assets/images/fav.png" alt="Ecommerce Analitycs"></div>
         <div class="menu">
-            <li>Home</li>
-            <li>Relatórios</li>
-            <li>Configurações</li>
+            <i class="fa-solid fa-house menuSelected"></i> 
+            <i class="fa-solid fa-file-contract"></i>
+            <i class="fa-solid fa-gear"></i>
         </div>
-    </div>
     </header>
-    <main></main>
+
+    <main>
+        <div class="top">
+            <div class="title">Analytics</div>
+                <div class="user">
+                    <div class="notification">
+                    <i class="fa-solid fa-bell"></i></div>
+                    <div class="username">Egidio</div>
+                    <div class="userImage"><img src="assets/images/users/01.png" alt="Usuário"></div>
+                    <div class="userMenu"><i class="fa-solid fa-chevron-down"></i>
+                        <div class="userMenuContent">
+                            <p>Sair</p>
+                        </div>
+                    </div>
+            </div>
+    </main>
 </body>
 
 </html>
