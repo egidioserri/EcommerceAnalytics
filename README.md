@@ -1,6 +1,6 @@
 <p align="center" >
 	
-<img src=".github\topo.png" alt="Ecommerce Analytics" width="150"/>
+<img src=".github\topo.png" alt="Ecommerce Analytics" width="500"/>
 	
 </p>
 
@@ -33,17 +33,3 @@ O objetivo do projeto ***ECommerce Analytics*** é ser uma plataforma para facil
 </p>
 	
 ---
-
-## :space_invader: Quem está fazendo ?
-
-<table>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/egidioserri" target="_blank">
-                <img src="https://avatars.githubusercontent.com/u/87836483?v=4" width="150px;" alt="Egidio" />
-                <br />
-                <sub><b>Egidio</b></sub>
-            </a>
-        </td>
-    </tr>
-</table>
