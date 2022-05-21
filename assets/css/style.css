@@ -40,7 +40,7 @@ main {
     display: flex;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 2vw;
     line-height: 36px;
     align-items: center;
     color: var(--WhiteColor);
@@ -54,12 +54,12 @@ main {
 
 .notification>i {
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .user .username {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1vw;
     line-height: 24px;
     display: flex;
     align-items: center;
@@ -72,8 +72,8 @@ main {
 }
 
 .userImage>img {
-    width: 50px;
-    height: 50px;
+    width: 2vw;
+    height: 2vw;
     border-radius: 35px;
     border: 1px solid var(--strokeColor);
 }
@@ -82,7 +82,7 @@ main {
 .userMenu i {
     position: relative;
     display: inline-block;
-    font-size: 10px;
+    font-size: 1vh;
 }
 
 .userMenuContent {
@@ -120,19 +120,27 @@ header {
     flex-direction: column;
     padding: 30vh 0;
     align-items: center;
-    font-size: 32px;
 }
 
 .menu i {
     padding: 20px;
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 .menuSelected {
     color: var(--SelectedColor);
 }
 
-/* responsive menu */
+/* responsive */
+
+@media (min-width: 1700px) {
+    header {
+        width: 6vw;
+    }
+
+
+
+}
 @media (max-width: 1400px) {
     header {
         width: 8vw;
@@ -144,7 +152,7 @@ header {
     }
 
     .logoPanel>img {
-        width: vw;
+        width: 5vw;
     }
 }
 
@@ -194,8 +202,8 @@ header {
 .card {
     background: var(--BoxBgColor);
     border-radius: 13px;
-    height: 180px;
-    width: 415px;
+    height: 15vh;
+    width: 23vw;
 
 }
 
@@ -214,18 +222,18 @@ header {
 
 .cardInfo h2 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1vw;
     line-height: 24px;
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 
 }
 
 .cardInfo p {
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2vw;
     line-height: 39px;
     display: flex;
     align-items: center;
